@@ -1,7 +1,3 @@
-/**
- * @param {Array<string>} queries
- * @param {Array<string>} stringList
- */
 function matchingStrings(stringList, queries) {
   const result = [];
 
@@ -19,4 +15,8 @@ function matchingStrings(stringList, queries) {
   return result;
 }
 
-console.log(matchingStrings(["def", "de", "fgh"], ["de", "lmn", "fgh"]));
+function main() {
+  console.log(matchingStrings(["def", "de", "fgh"], ["de", "lmn", "fgh"]));
+}
+
+main();
